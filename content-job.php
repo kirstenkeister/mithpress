@@ -20,6 +20,10 @@
 	<div class="entry-content">
 
 		<div class="job-desc">
+        
+        	<?php //if (get_field('expiration_date') ) : ?>
+            <div class="job-expire"><?php the_field('expiration_date'); ?></div>
+            <?php //endif; ?>
             
             <?php the_content(); ?>
             

@@ -94,7 +94,7 @@ get_header(); ?>
 				
 			<?php endif; ?>            
 			<?php endforeach; //endforeach  ?>
-            <?php wp_reset_query; wp_reset_postdata(); ?>
+            <?php wp_reset_postdata(); ?>
         </div>
         <!-- /content -->
 	</div>

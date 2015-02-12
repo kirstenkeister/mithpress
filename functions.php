@@ -49,6 +49,9 @@ add_filter( 'ot_theme_mode', '__return_true' ); // Required: set 'ot_theme_mode'
 
 include_once( 'admin/ot-loader.php' );  // Required: include OptionTree.
 
+//require_once ( 'admin/theme-options.php' );
+
+
 /*-----------------------------------------------------------------------------------*/
 /* Conditional Tags for Custom Taxonomy Pages */
 /*-----------------------------------------------------------------------------------*/
@@ -90,6 +93,4 @@ function post_is_in_descendant_category( $cats, $_post = null )
 	}
 	return false;
 }
-
-
 ?>
